@@ -1,4 +1,4 @@
-# SSSSTD
+# SSSSTD 🐍
 
 The name Vector for a resizeable array of values easily causes confusion with mathematical vectors, snakes are a much better analogy for such a structure.
 
