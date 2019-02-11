@@ -10,11 +10,16 @@ The name Vector for a resizeable array of values easily causes confusion with ma
 
 ```rust
 use sssstd::snek::Snek;
+#[macro_use]
+use sssstd::macros;
 
 fn main() {
     let snek = Snek::<i32>::new();
     snek.push(1);
     println!("{}", snek);
+
+    let snek2 = snek!(1,2,3 as i32);
+    println!("{}", snek2);
 }
 ```
 
