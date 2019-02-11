@@ -17,3 +17,19 @@ fn main() {
     println!("{}", snek);
 }
 ```
+
+
+### Advanced usage
+
+If have non-ascii-idents enabled in your nightly compiler, you can also do this. A picture speaks a thousand words after all
+
+```rust
+use sssstd::snek::Snek;
+
+fn main() {
+    let 🐍 = Snek::<i32>::new();
+    🐍.push(1);
+    println!("{}", snek);
+}
+
+```
