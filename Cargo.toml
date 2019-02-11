@@ -1,6 +1,6 @@
 [package]
 name = "sssstd"
-version = "0.1.1"
+version = "0.1.2"
 authors = ["TheZoq2 <frans.skarman@gmail.com>"]
 edition = "2018"
 description = "🐍 - A better analogy for resizeable arrays"
