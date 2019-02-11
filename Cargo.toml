@@ -3,5 +3,12 @@ name = "sssstd"
 version = "0.1.0"
 authors = ["TheZoq2 <frans.skarman@gmail.com>"]
 edition = "2018"
+description = "🐍 - A better analogy for resizeable arrays"
+license = "MIT"
+documentation = "https://docs.rs/sssstd"
+repository = "https://github.com/thezoq2/sssstd"
+readme = "README.md"
+
 
 [dependencies]
+
